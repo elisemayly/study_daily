@@ -1,23 +1,9 @@
 {
     "baseURL": "http://10.0.2.2:8080",
-    "topic":[
-        "林间清晨",
-        "云上归途",
-        "山野为家",
-        "湖畔旧梦",
-        "风眠小镇",
-        "落日为伴",
-        "雾中旅人",
-        "山水同行",
-        "旅梦成诗",
-        "其他"
-    ],
-    "destination":[
-        "北京",
-        "上海",
-        "广州",
-        "深圳"
-    ],
-    "countEachLoad":10,
-    "findUserCountEachLoad":50
+    "localhost": "http://localhost:8080",
+    "secretKey":"King",
+    "note":"以下路径前后均不能增加斜杠",
+    "userAvatarPath":"image/userAvatar",
+    "userBackgroundPath":"image/userBackground",
+    "logUploadPath":"image/logUpload"
 }
