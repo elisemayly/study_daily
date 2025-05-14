@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #62bd34;
+}
+
+/* 登录界面css */
+.login-background {
+  background: url("./assets/background_pclogin.gif");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
+}
+/*登录框*/
+
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 350px;
+  display: flex;
+  margin-right: 20px;
+  flex-direction: column;
+  background-color: rgba(244, 242, 242, 0.93);
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/*记住我按钮*/
+.remember-me .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #62bd34 !important;
+  border-color: #5fd8a3 !important;
+}
+
+.remember-me .ant-checkbox-inner {
+  border-color: #63dfaa !important;
+}
+
+/*审核界面表格*/
+.green-table .ant-table-container table,
+.green-table .ant-table-container th,
+.green-table .ant-table-container td {
+  border-color: #34db55 !important; /* 绿色边框 */
+}
+
+
+
+/* 审核展示页 */
+.search-box {
+  width: "50%";
+  padding: 20px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
