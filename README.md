@@ -1,101 +1,70 @@
-# 山语旅本 - 聆听山语，记录旅途每刻精彩 🌲🗺️
+# Getting Started with Create React App
 
-**山语旅本** 是一款为您精心打造的现代化旅行日记与分享平台。无论您是热衷于探索山川秘境的徒步爱好者，还是享受记录城市风光与人文风情的行者，山语旅本都将是您忠实的伙伴，帮助您珍藏旅途记忆，分享探索乐趣，并从他人的足迹中汲取灵感。
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## ✨ 为什么选择山语旅本？
+## Available Scripts
 
-- **✍️ 轻松记录，生动再现**:
-  - 支持图文并茂的游记创作，更有**视频模块**让您的回忆动起来！
-  - 便捷的编辑器，记录您的行程、花费、心情评分和目的地感悟。
-  - 智能图片压缩，上传更流畅，分享无负担。
-- **🌍 探索无界，灵感无限**:
-  - 首页精选游记以**瀑布流形式**呈现，给您源源不断的旅行灵感。
-  - 强大的**主题筛选**和**关键词搜索**功能，助您快速找到心仪的目的地或作者。
-- **🚀 一键规划，即刻出发**:
-  - 在游记详情中，对感兴趣的地点，可**直达携程**等票务网站，让灵感迅速转化为行动。
-- **📍 智能定位，便捷标记**:
-  - 发布游记时，可实时获取当前位置，或手动搜索并添加精准的旅行地点。
-- **🤝 连接旅友，分享喜悦**:
-  - 点赞、收藏您欣赏的游记，关注您喜爱的旅行创作者。
-  - 将您的精彩游记或发现轻松分享给朋友。
-- **👤 打造您的旅行名片**:
-  - 自定义您的个人主页，更换背景图和头像。
-  - 清晰展示您创作的游记、以及您点赞和收藏过的足迹。
-- **🛡️ 安全纯净的社区环境**:
-  - 我们重视内容的质量与安全，所有用户发布的游记均需经过审核才会公开展示。
+In the project directory, you can run:
 
-## 🛠️ 技术核心与架构
+### `npm start`
 
-山语旅本采用前后端分离的现代架构，确保了应用的性能、可扩展性和可维护性。
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **移动端 (山语旅本 App)**:
-  - **技术栈**: React Native (基于 Expo Go 开发环境), React Navigation, React Native Elements (及自定义 UI 组件)
-  - **核心特性**: 原生性能体验，跨平台兼容。
-- **审核管理系统 (PC 端)**:
-  - **技术栈**: React, Ant Design, React Router
-  - **核心特性**: 高效的游记审核流程，基于角色的权限管理系统（超级管理员、管理员、审核员）。
-- **后端服务**:
-  - **技术栈**: Node.js, Express.js, MongoDB, Mongoose
-  - **核心特性**: RESTful API 设计，使用 Multer 处理图片及视频等文件上传。
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
----
+### `npm test`
 
-## 🚀 快速上手 (开发者)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-我们欢迎您对山语旅本进行探索和贡献！
+### `npm run build`
 
-### 1. 环境准备
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- Node.js (推荐最新 LTS 版本)
-- npm 或 yarn
-- MongoDB (本地或云端实例)
-- Expo Go 应用 (用于运行移动端)
-- Git
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### 2. 获取代码
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-git clone
-cd trip_xiecheng
+### `npm run eject`
 
-3. 移动端 (山语旅本 App)
-   cd Whispers of the Mountain
-   npm install
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-# 或 yarn install
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-npm start
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-# 或 expo start
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-# 然后使用 Expo Go 扫描二维码在模拟器或真机上运行
+## Learn More
 
-4. 审核管理系统 (PC)
-   cd audit-management-system
-   npm install
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-# 或 yarn install
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-npm start
+### Code Splitting
 
-# 或 yarn start
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-# 通常在浏览器打开 http://localhost:3000 (或 CRA 默认的其他端口)
+### Analyzing the Bundle Size
 
-5. 后端服务
-   cd back-end
-   npm install
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-# 或 yarn install
+### Making a Progressive Web App
 
-npm start
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-# 或 node server.js
+### Advanced Configuration
 
-💡 项目亮点回顾
-流畅的瀑布流展示: 动态计算媒体内容高度，实现美观且高效的游记卡片浏览体验。
-图文视频混合发布: 支持多种媒体格式，丰富游记的表达形式。
-高效文件上传: 采用 FormData 和 multer，优化了大文件（如视频）的上传体验，并包含图片压缩。
-地点服务集成: 便捷跳转至携程等第三方服务，提升用户转化可能。
-地图定位功能: (简述您在 Expo 环境下通过 WebView 或其他方式实现定位的方案和特点)。
-精细化内容审核与权限管理: 保障社区内容质量，支持多角色后台协作。
-用户体验至上: 关注交互细节，提供和谐的色彩搭配与合理的页面布局。
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
